@@ -1,0 +1,146 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body { /*Reajustando todo el contenido de body */
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 128.5rem;
+    height: 329rem;
+}
+
+#d20 { /* creando la etiqueta que va arriba del header */
+    display: flex;
+    align-items: center;
+    background-color: rgb(192, 115, 61);
+    color: black;
+    padding-left: 2.5rem;
+    font-size: 3rem;
+    width: 100%;
+    height: 3.8125rem;
+}
+
+header { /* Creando header */
+    align-items: center;
+    display: flex;
+    background-color: #00669F;
+    padding-left: 2.5rem;
+    color: white;
+    width: 100%;
+    height: 10.125rem;
+    font-size: 4.5rem;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+.cards_centrals { /*ajustando el tamaño de las cartas que contienen a los personajes */
+    align-items: center;
+    background-color: rgb(192, 188, 188);
+    border-radius: 50px 50px 0px 0px;
+    box-shadow:0px 10px 0px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4.5rem;
+    height: 106rem;
+    width: 50.375rem;
+}
+
+body #signo_mas { /*Moviendo de lugar el circulo de mas*/
+    position: relative;
+    left: 130vh;
+}
+
+#signo_mas { /*Ajustando el signo de mas que aparece*/
+    display: flex;
+    color: white;
+    font-size: 6rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #00669F;
+    border-radius: 100%;
+    height: 9.375rem;
+    width: 9.375rem;
+}
+
+.imagen_fondo { /*Acomodando la imagen que va atras de la foto de perfil */
+    position: absolute;
+    width: 50.375rem;
+    height: 34.6875rem;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.imagen_perfil { /* Acomodando la imagen que va enfrente del fondo la de perfil */
+    position: relative;
+    top: 11.25rem;
+    width: 22rem;
+    height: 22rem;
+    border-radius: 100%;
+}
+
+button { /*Ajustando el boton de ver mas*/
+    position: relative;
+    width: 21.625rem;
+    height: 7.125rem;
+    color: white;
+    background-color: #00669F;
+    font-size: 2.25rem;
+    cursor: pointer;
+    bottom: 2rem;
+}
+
+.corazon { /*Ajustando el corazón que va enfrente de la foto del fondo */
+    position: relative;
+    margin-top: 2rem;
+    right: 20rem;
+    width: 4.1875rem;
+    height: 4.1875rem;
+}
+
+
+.introduccion { /*Ajustando el texto que da una pequeña introducción del personaje */
+    position: relative;
+    top: 40px;
+    width: 44.875rem;
+    font-size: 2.25rem;
+}
+
+.name_user { /*Ajustaando el nombre de los personajes */
+    align-items: center;
+    display: flex;
+    font-size: 4rem;
+    position: relative;
+    justify-content: center;
+    top: 6.25rem;
+    width: 35rem;
+}
+
+footer { /*Ajustando el tamaño del pie de la pagina */
+    align-items: center;
+    background-color: rgb(25, 25, 104);
+    color: white;
+    display: flex;
+    font-size: 2.25rem;
+    justify-content: center;
+    margin-top: 19rem;
+    height: 10.125rem;
+    width: 100%;
+}
+
+footer p {
+    position: relative;
+    left: 2vw;
+}
+
+footer img { /*Ajustando el tamaño de la img del pie de la pagina */
+    position: relative;
+    left: 8vw;
+    width: 15.5rem;
+    height: 4.2rem;
+}
