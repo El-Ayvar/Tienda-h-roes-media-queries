@@ -1,17 +1,17 @@
 * {
-    margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
 }
 
 body { /*Reajustando todo el contenido de body */
+    align-items: center;
+    display: flex;
     font-size: 16px;
     font-family: "Roboto", sans-serif;
-    display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 120rem;
     height: 329rem;
+    width: 120rem;
 }
 
 #card_none {
@@ -23,39 +23,44 @@ body { /*Reajustando todo el contenido de body */
         display: flex;
     }
     
-    .box_tablet {
-        display: flex;
+    .box_tablet { /*Agregando cajas para poder ajustar las cajas*/
         align-items: center;
-        justify-content: space-evenly;
-        width: 120rem;
+        display: flex;
         height: 110rem;
+        justify-content: space-evenly;
         margin-top: 5rem;
+        width: 120rem;
+    }
+
+    #signo_mas { /*Arreglando boton de mas para tablet*/
+        margin-top: 5rem;
+        margin-left: 18.7rem;
     }
     
 }
 
 #d20 { /* creando la etiqueta que va arriba del header */
-    display: flex;
     align-items: center;
     background-color: rgb(192, 115, 61);
     color: black;
-    padding-left: 2.5rem;
+    display: flex;
     font-size: 3rem;
-    width: 100%;
     height: 3.8125rem;
+    padding-left: 2.5rem;
+    width: 100%;
 }
 
 header { /* Creando header */
     align-items: center;
-    display: flex;
     background-color: #00669F;
-    padding-left: 2.5rem;
     color: white;
-    width: 100%;
-    height: 10.125rem;
+    display: flex;
     font-size: 4.5rem;
+    height: 10.125rem;
+    padding-left: 2.5rem;
     position: sticky;
     top: 0px;
+    width: 100%;
     z-index: 1;
 }
 
@@ -66,78 +71,78 @@ header { /* Creando header */
     box-shadow:0px 10px 0px 0px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
+    height: 106rem;
     justify-content: space-between;
     margin: 4.5rem;
-    height: 106rem;
     width: 50.375rem;
 }
 
 body #signo_mas { /*Moviendo de lugar el circulo de mas*/
-    position: relative;
     left: 110vh;
+    position: relative;
 }
 
 #signo_mas { /*Ajustando el signo de mas que aparece*/
-    display: flex;
-    color: white;
-    font-size: 6rem;
-    justify-content: center;
     align-items: center;
     background-color: #00669F;
     border-radius: 100%;
-    height: 9.375rem;
-    width: 9.375rem;
+    color: white;
     cursor: pointer;
+    display: flex;
+    font-size: 6rem;
+    height: 9.375rem;
+    justify-content: center;
+    width: 9.375rem;
 }
 
 .imagen_fondo { /*Acomodando la imagen que va atras de la foto de perfil */
+    border-radius: 50px 50px 0px 0px;
+    height: 34.6875rem;
     position: absolute;
     width: 50.375rem;
-    height: 34.6875rem;
-    border-radius: 50px 50px 0px 0px;
 }
 
 .imagen_perfil { /* Acomodando la imagen que va enfrente del fondo la de perfil */
+    border-radius: 100%;
+    height: 22rem;
     position: relative;
     top: 8.3rem;
     width: 22rem;
-    height: 22rem;
-    border-radius: 100%;
 }
 
 button { /*Ajustando el boton de ver mas*/
+    background-color: #00669F;
+    bottom: 6rem;
+    cursor: pointer;
+    color: white;
+    font-size: 2.25rem;
+    height: 7.125rem;
     position: relative;
     width: 21.625rem;
-    height: 7.125rem;
-    color: white;
-    background-color: #00669F;
-    font-size: 2.25rem;
-    cursor: pointer;
-    bottom: 6rem;
 }
 
 .corazon { /*Ajustando el corazón que va enfrente de la foto del fondo */
-    position: relative;
     margin-top: 2rem;
+    height: 4.1875rem;
+    position: relative;
     right: 20rem;
     width: 4.1875rem;
-    height: 4.1875rem;
 }
 
 
 .introduccion { /*Ajustando el texto que da una pequeña introducción del personaje */
-    position: relative;
     bottom: 3.1rem;
-    width: 44.875rem;
     font-size: 2.25rem;
+    position: relative;
+    width: 44.875rem;
 }
 
 .name_user { /*Ajustaando el nombre de los personajes */
     align-items: center;
     display: flex;
     font-size: 4rem;
-    position: relative;
     justify-content: center;
+    position: relative;
     top: 3.1rem;
     width: 35rem;
 }
@@ -155,13 +160,13 @@ footer { /*Ajustando el tamaño del pie de la pagina */
 }
 
 footer p { /*Centrando el texto de footer */
-    position: relative;
     left: 7rem;
+    position: relative;
 }
 
 footer img { /*Ajustando el tamaño de la img del pie de la pagina */
-    position: relative;
     left: 25rem;
+    position: relative;
     width: 15.5rem;
     height: 4.2rem;
 }
