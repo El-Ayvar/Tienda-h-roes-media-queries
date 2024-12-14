@@ -273,6 +273,7 @@ footer img { /*Ajustando el tamaño de la img del pie de la pagina */
         justify-content: start;
         margin-top: 10rem;
         padding: 0px;
+        padding-left: 1.5rem;
     }
 
     footer p{ /*Quitando el movimiendo de izquierda para que se ajuste el texto*/
