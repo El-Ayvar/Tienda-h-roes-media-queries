@@ -14,6 +14,26 @@ body { /*Reajustando todo el contenido de body */
     height: 329rem;
 }
 
+#card_none {
+    display: none;
+}
+
+@media (min-width: 481px) {
+    #card_none {
+        display: flex;
+    }
+    
+    .box_tablet {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 120rem;
+        height: 110rem;
+        margin-top: 5rem;
+    }
+    
+}
+
 #d20 { /* creando la etiqueta que va arriba del header */
     display: flex;
     align-items: center;
@@ -79,7 +99,7 @@ body #signo_mas { /*Moviendo de lugar el circulo de mas*/
 
 .imagen_perfil { /* Acomodando la imagen que va enfrente del fondo la de perfil */
     position: relative;
-    top: 11.25rem;
+    top: 8.3rem;
     width: 22rem;
     height: 22rem;
     border-radius: 100%;
@@ -93,7 +113,7 @@ button { /*Ajustando el boton de ver mas*/
     background-color: #00669F;
     font-size: 2.25rem;
     cursor: pointer;
-    bottom: 2rem;
+    bottom: 6rem;
 }
 
 .corazon { /*Ajustando el corazón que va enfrente de la foto del fondo */
@@ -107,7 +127,7 @@ button { /*Ajustando el boton de ver mas*/
 
 .introduccion { /*Ajustando el texto que da una pequeña introducción del personaje */
     position: relative;
-    top: 2.5rem;
+    bottom: 3.1rem;
     width: 44.875rem;
     font-size: 2.25rem;
 }
@@ -118,7 +138,7 @@ button { /*Ajustando el boton de ver mas*/
     font-size: 4rem;
     position: relative;
     justify-content: center;
-    top: 6.25rem;
+    top: 3.1rem;
     width: 35rem;
 }
 
